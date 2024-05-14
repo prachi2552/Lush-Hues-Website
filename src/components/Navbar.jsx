@@ -1,9 +1,4 @@
 import React from "react";
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import {navbar, LushContainerFluid
-
-//lush-container-fluid, navbar-brand, navbar-collapse, lushhues-container, nav-item, nav-link, search-container } from "mdb-react-ui-kit";
-
 const Navbar = () => {
   return (
     <div>
@@ -15,6 +10,7 @@ const Navbar = () => {
               alt="Logo"
               width="140"
             />
+            
           </a>
           <div
             className="collapse navbar-collapse "
