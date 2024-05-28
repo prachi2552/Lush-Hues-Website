@@ -6,6 +6,10 @@
   padding-left: 20px;
 }
 
+body {
+  color: red;
+}
+
 .navbar {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -51,4 +55,3 @@
   border-color: rgb(185, 175, 153);
   border-radius: 4px;
 }
-  

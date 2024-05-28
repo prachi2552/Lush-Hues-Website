@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./navbar.module.css";
+import styles from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-sm navbar-light">
         <div
           className="d-flex  lush-container-fluid"
-          style={{ paddingLeft: "20px" }}
+          style={{ paddingLeft: "15px" }}
         >
           <a className="navbar-brand" href="#">
             <img
