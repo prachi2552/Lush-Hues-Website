@@ -1,0 +1,53 @@
+.lushhues-container {
+  display: flex;
+  flex-direction:row;
+ /* justify-content: space-between; */
+  column-gap: 50px;
+  padding-left: 20px;
+}
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.nav-link {
+  color: rgb(148, 132, 98);
+}
+
+.navbar-nav .nav-link.active {
+  color: rgb(148, 132, 98);
+}
+
+.nav-link:hover {
+  color: #6237A0;
+}
+
+.search_form {
+  padding-left: 10px;
+  padding-right: 17px;
+  padding-top: 13px;
+  width: 250px;
+
+}
+.search-icon i {
+  position: absolute;
+  right: 0px;
+  bottom: 38px;
+  padding-right: 40px;
+  color: rgb(159, 149, 127);
+}
+
+.search_form input[type="search"]::placeholder {
+  color: rgb(148, 132, 98);
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.form-control {
+  border-color: rgb(185, 175, 153);
+  border-radius: 4px;
+}

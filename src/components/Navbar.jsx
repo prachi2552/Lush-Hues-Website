@@ -1,23 +1,27 @@
 import React from "react";
+import styles from "./navbar.module.css";
+
 const Navbar = () => {
   return (
-    <div>
+    <div className="main-nav">
       <nav className="navbar navbar-expand-sm navbar-light">
-        <div className="lush-container-fluid" style={{ paddingLeft: "20px" }}>
+        <div
+          className="d-flex  lush-container-fluid"
+          style={{ paddingLeft: "20px" }}
+        >
           <a className="navbar-brand" href="#">
             <img
               src="./images/Lush Hues Design Logo.jpg"
               alt="Logo"
               width="140"
             />
-            
           </a>
           <div
-            className="collapse navbar-collapse "
-            style={{paddingTop: '17px'}}
             id="navbarNav"
+            className={`justify-content-end collapse navbar-collapse ${styles["lushhues-container"]}`}
+            style={{ paddingTop: "17px" }}
           >
-            <ul className="navbar-nav lushhues-container">
+            <ul className="navbar-nav">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
                   Home
@@ -40,7 +44,19 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="search-container">
+          <div
+            className="search-container"
+            style={{
+              position: "absolute",
+              right: "0px",
+              paddingLeft: "10px",
+              paddingRight: "17px",
+              paddingTop: "28px",
+              width: "250px",
+
+
+            }}
+          >
             <form className="form-inline search_form">
               <input
                 className="form-control mr-sm-2"
@@ -48,7 +64,16 @@ const Navbar = () => {
                 placeholder="Search"
                 aria-label="Search"
               />
-              <div className="search-icon">
+              <div
+                className="search-icon"
+                style={{
+                  color: "rgb(159, 149, 127)",
+                  position: "absolute",
+                  right: "0px",
+                  paddingRight: "30px",
+
+                }}
+              >
                 <i className="fa-solid fa-magnifying-glass"></i>
               </div>
             </form>
