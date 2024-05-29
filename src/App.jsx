@@ -4,7 +4,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Cover from "./components/Cover";
 import BirthdayCardRow from "./components/BirthdayCardRow";
-import BabyShowerInvitationCards from "./components/BabyShowerInvitationCards";
+import BabyShowerCardRow from "./components/BabyShowerCardRow";
+// import BabyShowerInvitationCards from "./components/BabyShowerInvitationCards";
 
 function App() {
   return (
@@ -43,7 +44,7 @@ function App() {
         </h4>
       </div>
       <div>
-        <BabyShowerInvitationCards />
+        <BabyShowerCardRow />
       </div>
       <div>
         <hr />
