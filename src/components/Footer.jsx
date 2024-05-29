@@ -9,7 +9,7 @@ const Footer = () => {
           className="d-flex footer-container"
           style={{ alignItems: "center", justifyContent: "center" }}
         >
-          <div className="logo-social-icons">
+          <div className="logo-socialIcons">
             <div className="footer-logo">
               <img
                 src="./images/Lush Hues Design Logo.jpg"
@@ -17,17 +17,17 @@ const Footer = () => {
                 width="210px"
               />
             </div>
-            <div className="footer-social-icons" style={{ paddingTop: "12px" }}>
+            <div className="footer-socialIcons" style={{ paddingTop: "12px" }}>
               <ul
-                className="d-flex social-icons"
-                style={{
-                  flexDirection: "row",
-                  justifyContent: "space-evenly",
-                  boxSizing: "border-box",
-                  alignItems: "center",
-                  listStyleType: "none",
-                  paddingLeft: "0px",
-                }}
+                className={`d-flex ${styles.socialIcons}`}
+                // style={{
+                //   flexDirection: "row",
+                //   justifyContent: "space-evenly",
+                //   boxSizing: "border-box",
+                //   alignItems: "center",
+                //   listStyleType: "none",
+                //   paddingLeft: "0px",
+                // }}
               >
                 <li>
                   <a
