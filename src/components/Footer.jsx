@@ -32,21 +32,21 @@ const Footer = () => {
                 <li>
                   <a
                     href="https://www.facebook.com/profile.php?id=61556437637196"
-                    class="fa-brands fa-facebook-f"
+                    className="fa-brands fa-facebook-f"
                     style={{ color: "rgb(148, 132, 98)" }}
                   ></a>
                 </li>
                 <li>
                   <a
                     href="https://www.instagram.com/lushhuesdesign/"
-                    class="fa-brands fa-instagram"
+                    className="fa-brands fa-instagram"
                     style={{ color: "rgb(148, 132, 98)" }}
                   ></a>
                 </li>
                 <li>
                   <a
                     href="https://nl.pinterest.com/lushhuesdesigns/"
-                    class="fa-brands fa-pinterest-p"
+                    className="fa-brands fa-pinterest-p"
                     style={{ color: "rgb(148, 132, 98)" }}
                   ></a>
                 </li>

@@ -3,7 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Cover from "./components/Cover";
-import BirthdayInvitationCards from "./components/BirthdayInvitationCards";
+import BirthdayCardRow from "./components/BirthdayCardRow";
 import BabyShowerInvitationCards from "./components/BabyShowerInvitationCards";
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
         </h4>
       </div>
       <div>
-        <BirthdayInvitationCards />
+        <BirthdayCardRow />
       </div>
       <div className="listing-title">
         <h4
