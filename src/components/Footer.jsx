@@ -20,14 +20,6 @@ const Footer = () => {
             <div className="footer-socialIcons" style={{ paddingTop: "12px" }}>
               <ul
                 className={`d-flex ${styles.socialIcons}`}
-                // style={{
-                //   flexDirection: "row",
-                //   justifyContent: "space-evenly",
-                //   boxSizing: "border-box",
-                //   alignItems: "center",
-                //   listStyleType: "none",
-                //   paddingLeft: "0px",
-                // }}
               >
                 <li>
                   <a

@@ -23,57 +23,45 @@ const Navbar = () => {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a
+                  className={`d-flex ${styles.navLink} active`}
+                  aria-current="page"
+                  href="#"
+                >
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className={`${styles.navLink}`} href="#">
                   About Us
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className={`${styles.navLink}`} href="#">
                   Contact Us
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="https://lushhues.etsy.com">
+                <a
+                  className={`${styles.navLink}`}
+                  href="https://lushhues.etsy.com"
+                >
                   Etsy Shop
                 </a>
               </li>
             </ul>
           </div>
           <div
-            className="search-container"
-            style={{
-              position: "absolute",
-              right: "0px",
-              paddingLeft: "10px",
-              paddingRight: "17px",
-              paddingTop: "28px",
-              width: "250px",
-
-
-            }}
+            className={`${styles.searchContainer}`}
           >
-            <form className="form-inline search_form">
+            <form className={`form-inline ${styles.searchForm}`}>
               <input
-                className="form-control mr-sm-2"
+                className={`${styles.formControl} mr-sm-2`}
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
               />
-              <div
-                className="search-icon"
-                style={{
-                  color: "rgb(159, 149, 127)",
-                  position: "absolute",
-                  right: "0px",
-                  paddingRight: "30px",
-
-                }}
-              >
+              <div className={`${styles.searchIcon}`}>
                 <i className="fa-solid fa-magnifying-glass"></i>
               </div>
             </form>
