@@ -9,19 +9,18 @@ const Navbar = () => {
           className="d-flex  lush-container-fluid"
           style={{ paddingLeft: "15px" }}
         >
-          <a className="navbar-brand" href="#">
+          <a className={`${styles.navbarBrand}`} href="#">
             <img
               src="./images/Lush Hues Design Logo.jpg"
               alt="Logo"
-              width="140"
+              width="150"
             />
           </a>
           <div
             id="navbarNav"
-            className={`justify-content-end collapse navbar-collapse ${styles["lushhues-container"]}`}
-            style={{ paddingTop: "17px" }}
+            className={`collapse navbar-collapse ${styles.lushhuesContainer}`}
           >
-            <ul className="navbar-nav">
+            <ul className={`navbar-nav ${styles.lushhuesContainer}`}>
               <li className="nav-item">
                 <a
                   className={`d-flex ${styles.navLink} active`}

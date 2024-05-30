@@ -1,37 +1,27 @@
-.footer-container {
+.footerContainer {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
-
-/* .logo-social-icons {
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box
-} */
 
 footer .socialIcons a, footer .socialIcons a:visited {
   color: rgb(148, 132, 98);
   text-decoration: none;
 }
 
+footer .socialIcons a:hover {
+  color: rgb(98, 55, 160);
+}
+
 .socialIcons {
-  display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
   box-sizing: border-box;
   align-items: center;
   list-style-type: none;
   padding-left: 0px;
   font-size: 20px;
-
 }
 
-footer .socialIcons a:hover {
-  color: #6237A0
-}
-
-.footer-socialIcons {
+.footerSocialIcons {
   padding-top: 13px;
 }

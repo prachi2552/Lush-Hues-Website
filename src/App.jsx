@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 import Cover from "./components/Cover";
 import BirthdayCardRow from "./components/BirthdayCardRow";
 import BabyShowerCardRow from "./components/BabyShowerCardRow";
-// import BabyShowerInvitationCards from "./components/BabyShowerInvitationCards";
 
 function App() {
   return (
