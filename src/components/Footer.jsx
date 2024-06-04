@@ -1,13 +1,12 @@
 import React from "react";
 import styles from "./Footer.module.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div className="footer-section">
       <footer>
-        <div
-          className={`${styles.footerContainer}`}
-        >
+        <div className={`${styles.footerContainer}`}>
           <div className="logo-socialIcons">
             <div className="footer-logo">
               <img
@@ -16,27 +15,24 @@ const Footer = () => {
                 width="210px"
               />
             </div>
-            <div className={`${styles.footerSocialIcons}`} >
-              <ul
-                className={`d-flex ${styles.socialIcons}`}
-              >
+            <div className={`${styles.footerSocialIcons}`}>
+              <ul className={`d-flex ${styles.socialIcons}`}>
                 <li>
-                  <a
-                    href="https://www.facebook.com/profile.php?id=61556437637196"
+                  <Link
+                    to="https://www.facebook.com/profile.php?id=61556437637196"
                     className="fa-brands fa-facebook-f"
-                  ></a>
+                  ></Link>
                 </li>
                 <li>
-                  <a
-                    href="https://www.instagram.com/lushhuesdesign/"
+                  <Link
+                    to="https://www.instagram.com/lushhuesdesign/"
                     className="fa-brands fa-instagram"
-                  ></a>
+                  ></Link>
                 </li>
                 <li>
-                  <a
-                    href="https://nl.pinterest.com/lushhuesdesigns/"
+                  <Link to="https://nl.pinterest.com/lushhuesdesigns/"
                     className="fa-brands fa-pinterest-p"
-                  ></a>
+                  ></Link>
                 </li>
               </ul>
             </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Navbar.module.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -9,44 +10,43 @@ const Navbar = () => {
           className="d-flex  lush-container-fluid"
           style={{ paddingLeft: "15px" }}
         >
-          <a className={`${styles.navbarBrand}`} href="#">
+          <Link to="#" className={`${styles.navbarBrand}`} >
             <img
               src="./images/Lush Hues Design Logo.jpg"
               alt="Logo"
               width="150"
             />
-          </a>
+          </Link>
           <div
             id="navbarNav"
             className={`collapse navbar-collapse ${styles.lushhuesContainer}`}
           >
             <ul className={`navbar-nav ${styles.lushhuesContainer}`}>
               <li className="nav-item">
-                <a
-                  className={`d-flex ${styles.navLink} active`}
+                <Link to="/"
+                  clLinkssName={`d-flex ${styles.navLink} active`}
                   aria-current="page"
-                  href="#"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className={`${styles.navLink}`} href="#">
+                <Link to="/about" className={`${styles.navLink}`} >
                   About Us
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className={`${styles.navLink}`} href="#">
+                <Link to="/contact" className={`${styles.navLink}`} >
                   Contact Us
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link to="https://lushhues.etsy.com"
                   className={`${styles.navLink}`}
-                  href="https://lushhues.etsy.com"
+
                 >
                   Etsy Shop
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
