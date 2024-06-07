@@ -1,8 +1,6 @@
 import React from "react";
 import Cover from "../components/Cover";
-import BirthdayCardRow from "../components/BirthdayCardRow";
-import BabyShowerCardRow from "../components/BabyShowerCardRow";
-import Footer from "../components/Footer";
+import CategoryCardRow from "../components/CategoryCardRow";
 
 const Home = () => {
   return (
@@ -23,7 +21,7 @@ const Home = () => {
         </h4>
       </div>
       <div>
-        <BirthdayCardRow />
+        <CategoryCardRow filterCategory="Birthday Invitations" />
       </div>
       <div className="listing-title">
         <h4
@@ -38,9 +36,8 @@ const Home = () => {
         </h4>
       </div>
       <div>
-        <BabyShowerCardRow />
+        <CategoryCardRow filterCategory="Baby Shower Invitations" />
       </div>
-      
     </div>
   );
 };
