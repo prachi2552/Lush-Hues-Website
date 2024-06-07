@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "category": "Birthday Invitations",
+    "img": "./images/Birthday Invitations/Listing img-2.jpg",
+    "title": "Safari Birthday Invitation",
+    "rating": 4.5,
+    "price": "€7.25",
+    "description": "This safari birthday invitation template features a textured background with iconic safari animals. It's a fully editable, customizable, and printable digital template.",
+    "size": "5x7 inches"
+  },
+
+  {
+    "id": 2,
+    "category": "Birthday Invitations",
+    "img": "./images/Birthday Invitations/Listing img-3.jpg",
+    "title": "Farm Birthday Invitation",
+    "rating": 4.5,
+    "price": "€7.25",
+    "description": "The farm-themed birthday invitation template captures the playful spirit of the countryside. It features a picturesque farm scene with a bright blue sky and a classic red barn nestled among tall trees. Colorful farm animals add a delightful charm to the scene. It's a fully editable, customizable, and printable digital template.",
+    "size": "5x7 inches"
+  },
+
+  {
+    "id": 3,
+    "category": "Birthday Invitations",
+    "img": "./images/Birthday Invitations/Listing img-1.jpeg",
+    "title": "Under The Sea Birthday Invitation",
+    "rating": 4.5,
+    "price": "€7.25",
+    "description": "This under-the-sea invitation template features a captivating underwater scene that immediately transports you to the depths of the ocean. It's a fully editable, customizable, and printable digital template.",
+    "size": "5x7 inches"
+  },
+
+  {
+    "id": 4,
+    "category": "Baby Shower Invitations",
+    "img": "./images/Baby Shower Invitations/Baby-shower-listing img-2.jpg",
+    "title": "Gender Neutral Baby Shower Invitation",
+    "rating": 4.5,
+    "price": "€7.25",
+    "description": "Celebrate the upcoming arrival of your little one with our gender-neutral baby shower invitation template. Whether it's a boy, a girl, or a surprise, this invitation captures the joy of this special milestone. It's a fully editable, customizable, and printable digital template.",
+    "size": "5x7 inches"
+  },
+
+  {
+    "id": 5,
+    "category": "Baby Shower Invitations",
+    "img": "./images/Baby Shower Invitations/Listing img-3.jpeg",
+    "title": "Pink Hot Air Balloon Baby Shower Invitation",
+    "rating": 4.5,
+    "price": "€7.25",
+    "description": "Float into the celebration with our adorable Pink Hot Air Balloon Baby Shower Invitation Template! Featuring a charming polka dot background and a whimsical watercolor illustration of a hot air balloon, this design sets the perfect tone for a joy-filled gathering to welcome the little one. It's a fully editable, customizable, and printable digital template.",
+    "size": "5x7 inches"
+  },
+
+  {
+    "id": 6,
+    "category": "Baby Shower Invitations",
+    "img": "./images/Baby Shower Invitations/Listing img-3.jpeg",
+    "title": "Blue Hot Air Balloon Baby Shower Invitation",
+    "rating": 4.5,
+    "price": "€7.25",
+    "description": "Float into the celebration with our adorable Blue Hot Air Balloon Baby Shower Invitation Template! Featuring a charming polka dot background and a whimsical watercolor illustration of a hot air balloon, this design sets the perfect tone for a joy-filled gathering to welcome the little one. It's a fully editable, customizable, and printable digital template.",
+    "size": "5x7 inches"
+  }
+]
