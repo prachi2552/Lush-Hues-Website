@@ -1,3 +1,36 @@
 .cardDetailsContainer {
-  /* max-width: 40%; */
+  width: calc(90% + 20px);
+  color: rgb(148, 132, 98);
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.cardDetail {
+  padding-top: 40px;
+
+
+
+    margin-left: calc(20px / 2);
+    margin-right: calc(20px / 2);
+    box-sizing: border-box;
+}
+
+
+.cardDetail img {
+  max-width: 100%;
+  height: auto;
+  padding-top: 20px;
+}
+
+.infoContainer {
+  margin-left: 10px;
+}
+
+.cardDetailTitle h1 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.5em;
+
 }
