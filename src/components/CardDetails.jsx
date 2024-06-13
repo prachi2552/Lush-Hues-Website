@@ -14,14 +14,14 @@ const CardDetails = () => {
       {cardDetail.img && (
         <div className={`${styles.cardDetailsContainer}`}>
           <div className={`row ${styles.cardDetail}`}>
-            <div className={`col-md-6 ${styles.imageContainer}`}>
+            <div className={`col-md-7 ${styles.imageContainer}`}>
               <img
                 src={cardDetail.img}
                 alt={cardDetail.title}
                 className="card-img-top card-thumbnail"
               />
             </div>
-            <div className="col-md-6">
+            <div className="col-md-5">
               <div className="row">
                 <div className={`col-md-12 ${styles.infoContainer}`}>
                   <hr />
@@ -38,11 +38,12 @@ const CardDetails = () => {
                   {cardDetail.description && (
                     <div>{cardDetail.description}</div>
                   )}
+                  <br />
                   {cardDetail.size && <div>{cardDetail.size}</div>}
                   <br />
-                  <div>
-                    <h4>HOW IT WORKS </h4>
-                    <ol>
+                  <div className={`${styles.cardDetailTitle}`}>
+                    <h4>How It Works </h4>
+                    <ol style={{ paddingLeft: "20px" }}>
                       <li>
                         After purchase, you will receive an email with a PDF
                         attachment containing links to your templates.
@@ -62,9 +63,9 @@ const CardDetails = () => {
                     </ol>
                   </div>
                   <br />
-                  <div>
-                    <h4>PLEASE NOTE</h4>
-                    <ul>
+                  <div className={`${styles.cardDetailTitle}`}>
+                    <h4>Please Note</h4>
+                    <ul style={{ paddingLeft: "10px" }}>
                       <li>
                         The colors you see on your computer screen may differ
                         from the printed version due to your computer and
@@ -87,8 +88,8 @@ const CardDetails = () => {
                     </p>
                   </div>
                   <br />
-                  <div>
-                    <h4>RETURNS</h4>
+                  <div className={`${styles.cardDetailTitle}`}>
+                    <h4>Returns</h4>
                     <p>
                       Returns, exchanges, or cancellations are not accepted for
                       digital products. Kindly contact us if you have any

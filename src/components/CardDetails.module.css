@@ -9,9 +9,6 @@
 
 .cardDetail {
   padding-top: 40px;
-
-
-
     margin-left: calc(20px / 2);
     margin-right: calc(20px / 2);
     box-sizing: border-box;
@@ -19,7 +16,7 @@
 
 
 .cardDetail img {
-  max-width: 100%;
+  max-width:  100%;
   height: auto;
   padding-top: 20px;
 }
@@ -33,4 +30,18 @@
   font-weight: 500;
   line-height: 1.5em;
 
+}
+
+.cardDetailTitle h4 {
+  font-size: 20px;
+  letter-spacing: 0.75px;
+}
+.cardDetailCol60 {
+  flex: 0 0 auto;
+  width: 58%;
+}
+
+.cardDetailCol40 {
+  flex: 0 0 auto;
+  width: 38%;
 }
