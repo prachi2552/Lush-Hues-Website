@@ -9,6 +9,8 @@ const CardDetails = () => {
 
   // console.log(cardData.find((card) => card.id === index));
 
+  
+
   return (
     <>
       {cardDetail.img && (

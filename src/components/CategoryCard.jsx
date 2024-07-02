@@ -19,7 +19,7 @@ const CategoryCard = ({ card }) => {
           alt={card.title}
           className="card-img-top card-thumbnail"
         />
-        <div className="card-body" style={{ textAlign: "center" }}>
+        <div className="card-body" style={{ textAlign: "center", color: "rgb(148, 132, 98)" }}>
           <p className="card-text"> {card.title} </p>
         </div>
       </div>
