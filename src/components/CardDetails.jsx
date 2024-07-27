@@ -10,16 +10,14 @@ const CardDetails = () => {
 
   // console.log(cardData.find((card) => card.id === index));
 
-
-
   return (
     <>
       {cardDetail.img && (
         <div className={`${styles.cardDetailsContainer}`}>
           <div className={`row ${styles.cardDetail}`}>
-
             <div className={`col-md-7 ${styles.imageContainer}`}>
-            <Slideshow></Slideshow>
+              <Slideshow cardDetail={cardDetail} />
+
               {/* <img
                 src={cardDetail.img}
                 alt={cardDetail.title}
