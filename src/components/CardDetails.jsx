@@ -1,6 +1,7 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import styles from "./CardDetails.module.css";
+import Slideshow from "./Slideshow";
 
 const CardDetails = () => {
   const location = useLocation();
@@ -9,20 +10,23 @@ const CardDetails = () => {
 
   // console.log(cardData.find((card) => card.id === index));
 
-  
+
 
   return (
     <>
       {cardDetail.img && (
         <div className={`${styles.cardDetailsContainer}`}>
           <div className={`row ${styles.cardDetail}`}>
+
             <div className={`col-md-7 ${styles.imageContainer}`}>
-              <img
+            <Slideshow></Slideshow>
+              {/* <img
                 src={cardDetail.img}
                 alt={cardDetail.title}
                 className="card-img-top card-thumbnail"
-              />
+              /> */}
             </div>
+
             <div className="col-md-5">
               <div className="row">
                 <div className={`col-md-12 ${styles.infoContainer}`}>

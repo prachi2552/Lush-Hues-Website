@@ -21,6 +21,10 @@
   color: #6237A0;
 }
 
+/* .navLink:visited {
+  color: rgb(148, 132, 98);
+} */
+
 .searchContainer {
   position: absolute;
   right: 0px;
