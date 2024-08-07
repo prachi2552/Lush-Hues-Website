@@ -38,6 +38,21 @@ const Home = () => {
       <div>
         <CategoryCardRow filterCategory="Baby Shower Invitations" />
       </div>
+      <div className="listing-title">
+        <h4
+          className="listing-heading"
+          style={{
+            textAlign: "center",
+            paddingTop: "80px",
+            color: "rgb(148, 132, 98)",
+          }}
+        >
+          Baby Shower Invitations
+        </h4>
+      </div>
+      <div>
+        <CategoryCardRow filterCategory="Baby Shower Invitations" />
+      </div>
     </div>
   );
 };

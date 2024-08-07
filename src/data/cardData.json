@@ -2,7 +2,34 @@
   {
     "id": 1,
     "category": "Birthday Invitations",
-    "img": "./images/Birthday Invitations/Listing img-2.jpg",
+    "img": "./images/Birthday Invitations/Safari Birthday Invitation/Listing img-2.jpg",
+    "listingImages": [
+      {
+        "title": "t1",
+        "listingImageUrl": "./images/Birthday Invitations/Safari Birthday Invitation/Listing img-2.jpg",
+        "id": 1
+      },
+      {
+        "title": "t2",
+        "listingImageUrl": "./images/Birthday Invitations/Safari Birthday Invitation/Listing img-1.jpg",
+        "id": 2
+      },
+      {
+        "title": "t3",
+        "listingImageUrl": "./images/Birthday Invitations/Safari Birthday Invitation/Listing img-3.jpeg",
+        "id": 3
+      },
+      {
+        "title": "t4",
+        "listingImageUrl": "./images/Birthday Invitations/Safari Birthday Invitation/Listing img-4.jpeg",
+        "id": 4
+      },
+      {
+        "title": "t5",
+        "listingImageUrl": "./images/Birthday Invitations/Safari Birthday Invitation/Listing img-5.jpeg",
+        "id": 5
+      }
+    ],
     "title": "Safari Birthday Invitation",
     "rating": 4.5,
     "price": "€7.25",
@@ -12,8 +39,40 @@
   {
     "id": 2,
     "category": "Birthday Invitations",
-    "img": "./images/Birthday Invitations/Listing img-3.jpg",
+    "img": "./images/Birthday Invitations/Farm Birthday Invitation/Listing img-3.jpg",
     "title": "Farm Birthday Invitation",
+    "listingImages": [
+      {
+        "title": "t1",
+        "listingImageUrl": "./images/Birthday Invitations/Farm Birthday Invitation/Listing img-3.jpg",
+        "id": 1
+      },
+      {
+        "title": "t2",
+        "listingImageUrl": "./images/Birthday Invitations/Farm Birthday Invitation/Listing img-1.jpeg",
+        "id": 2
+      },
+      {
+        "title": "t3",
+        "listingImageUrl": "./images/Birthday Invitations/Farm Birthday Invitation/Listing img-2.jpeg",
+        "id": 3
+      },
+      {
+        "title": "t4",
+        "listingImageUrl": "./images/Birthday Invitations/Farm Birthday Invitation/Listing img-4.jpeg",
+        "id": 4
+      },
+      {
+        "title": "t5",
+        "listingImageUrl": "./images/Birthday Invitations/Farm Birthday Invitation/Listing img-6.jpeg",
+        "id": 5
+      },
+      {
+        "title": "t6",
+        "listingImageUrl": "./images/Birthday Invitations/Farm Birthday Invitation/Listing img-5.jpeg",
+        "id": 6
+      }
+    ],
     "rating": 4.5,
     "price": "€7.25",
     "description": "The farm-themed birthday invitation template captures the playful spirit of the countryside. It features a picturesque farm scene with a bright blue sky and a classic red barn nestled among tall trees. Colorful farm animals add a delightful charm to the scene. It's a fully editable, customizable, and printable digital template.",
@@ -22,7 +81,34 @@
   {
     "id": 3,
     "category": "Birthday Invitations",
-    "img": "./images/Birthday Invitations/Listing img-1.jpeg",
+    "img": "./images/Birthday Invitations/Under the sea Invitation/Listing img-2.jpeg",
+    "listingImages": [
+      {
+        "title": "t1",
+        "listingImageUrl": "./images/Birthday Invitations/Under the sea Invitation/Listing img-2.jpeg",
+        "id": 1
+      },
+      {
+        "title": "t2",
+        "listingImageUrl": "./images/Birthday Invitations/Under the sea Invitation/Listing img-1.jpeg",
+        "id": 2
+      },
+      {
+        "title": "t3",
+        "listingImageUrl": "./images/Birthday Invitations/Under the sea Invitation/Listing img-3.jpeg",
+        "id": 3
+      },
+      {
+        "title": "t4",
+        "listingImageUrl": "./images/Birthday Invitations/Under the sea Invitation/Listing img-4.jpeg",
+        "id": 4
+      },
+      {
+        "title": "t5",
+        "listingImageUrl": "./images/Birthday Invitations/Under the sea Invitation/Listing img-5.jpeg",
+        "id": 5
+      }
+    ],
     "title": "Under The Sea Birthday Invitation",
     "rating": 4.5,
     "price": "€7.25",

@@ -8,20 +8,19 @@ const Slideshow = ({ cardDetail }) => {
   const encodeUrl = (url) => encodeURIComponent(url);
 
   return (
-    <Slide>
+    <Slide  autoplay={false}
+    onChange={function noRefCheck(){}}
+    onStartChange={function noRefCheck(){}}
+  >
       {cardDetail.listingImages.map((listingImage) => {
         // Encode URL to handle special characters
         const imageUrl = encodeUrl(listingImage.listingImageUrl);
 
         return (
-          <div className={styles.eachSlideEffect} key={listingImage.id}>
-            <div
-              style={{
-                backgroundImage: `url(${imageUrl})`,
-              }}
-              className={styles.slideImage}
-            >
-              <span>{listingImage.title}</span>
+          <div className={`${styles.eachSlideEffect}`} key={listingImage.id}>
+            <div className={`${styles.sliderImage}`}>
+              <img src={imageUrl} alt={listingImage.title} />
+
             </div>
           </div>
         );

@@ -4,6 +4,9 @@
   justify-content: center;
   background-size: cover;
   height:  680px;
+  /* max-width:  100%;
+  height: auto;
+  padding-top: 20px; */
 }
 
 .eachSlideEffect span {
@@ -11,4 +14,10 @@
   font-size: 20px;
   background: #efefef;
   text-align: center;
+}
+
+.sliderImage img {
+  max-width:  100%;
+  height: auto;
+  padding-top: 20px;
 }
