@@ -32,7 +32,7 @@
     ],
     "title": "Safari Birthday Invitation",
     "rating": 4.5,
-    "price": "€7.25",
+    "price": "€5.99",
     "description": "This safari birthday invitation template features a textured background with iconic safari animals. It's a fully editable, customizable, and printable digital template.",
     "size": "5x7 inches"
   },
@@ -74,7 +74,7 @@
       }
     ],
     "rating": 4.5,
-    "price": "€7.25",
+    "price": "€5.99",
     "description": "The farm-themed birthday invitation template captures the playful spirit of the countryside. It features a picturesque farm scene with a bright blue sky and a classic red barn nestled among tall trees. Colorful farm animals add a delightful charm to the scene. It's a fully editable, customizable, and printable digital template.",
     "size": "5x7 inches"
   },
@@ -111,7 +111,7 @@
     ],
     "title": "Under The Sea Birthday Invitation",
     "rating": 4.5,
-    "price": "€7.25",
+    "price": "€5.99",
     "description": "This under-the-sea invitation template features a captivating underwater scene that immediately transports you to the depths of the ocean. It's a fully editable, customizable, and printable digital template.",
     "size": "5x7 inches"
   },
@@ -148,7 +148,7 @@
     ],
     "title": "Gender Neutral Baby Shower Invitation",
     "rating": 4.5,
-    "price": "€7.25",
+    "price": "€5.99",
     "description": "Celebrate the upcoming arrival of your little one with our gender-neutral baby shower invitation template. Whether it's a boy, a girl, or a surprise, this invitation captures the joy of this special milestone. It's a fully editable, customizable, and printable digital template.",
     "size": "5x7 inches"
   },
@@ -190,7 +190,7 @@
     ],
     "title": "Pink Hot Air Balloon Baby Shower Invitation",
     "rating": 4.5,
-    "price": "€7.25",
+    "price": "€5.99",
     "description": "Float into the celebration with our adorable Pink Hot Air Balloon Baby Shower Invitation Template! Featuring a charming polka dot background and a whimsical watercolor illustration of a hot air balloon, this design sets the perfect tone for a joy-filled gathering to welcome the little one. It's a fully editable, customizable, and printable digital template.",
     "size": "5x7 inches"
   },
@@ -227,8 +227,119 @@
     ],
     "title": "Blue Hot Air Balloon Baby Shower Invitation",
     "rating": 4.5,
-    "price": "€7.25",
+    "price": "€5.99",
     "description": "Float into the celebration with our adorable Blue Hot Air Balloon Baby Shower Invitation Template! Featuring a charming polka dot background and a whimsical watercolor illustration of a hot air balloon, this design sets the perfect tone for a joy-filled gathering to welcome the little one. It's a fully editable, customizable, and printable digital template.",
     "size": "5x7 inches"
+  },
+  {
+    "id": 7,
+    "category": "Favor Tags",
+    "img": "./images/Favor Tags/Unicorn favor tag/Listing img-1.jpg",
+    "listingImages": [
+      {
+        "title": "t1",
+        "listingImageUrl": "./images/Favor Tags/Unicorn favor tag/Listing img-1.jpg",
+        "id": 1
+      },
+      {
+        "title": "t2",
+        "listingImageUrl": "./images/Favor Tags/Unicorn favor tag/Listing img-2.jpg",
+        "id": 2
+      },
+      {
+        "title": "t3",
+        "listingImageUrl": "./images/Favor Tags/Unicorn favor tag/Listing img-3.jpg",
+        "id": 3
+      },
+      {
+        "title": "t4",
+        "listingImageUrl": "./images/Favor Tags/Unicorn favor tag/Listing img-4.jpg",
+        "id": 4
+      },
+      {
+        "title": "t5",
+        "listingImageUrl": "./images/Favor Tags/Unicorn favor tag/Listing img-5.jpg",
+        "id": 5
+      }
+    ],
+    "title": "Unicorn Birthday Favor Tag",
+    "rating": 4.5,
+    "price": "€4.99",
+    "description": "Step into a world of enchantment with our unicorn-themed design! This favor tag sets the perfect tone for a magical celebration. It's a fully editable, customizable, and printable digital template.",
+    "size": "2x3.5 inches"
+  },
+  {
+    "id": 8,
+    "category": "Favor Tags",
+    "img": "./images/Favor Tags/Gender neutral baby shower favor tag/Listing img-1.jpeg",
+    "listingImages": [
+      {
+        "title": "t1",
+        "listingImageUrl": "./images/Favor Tags/Gender neutral baby shower favor tag/Listing img-1.jpeg",
+        "id": 1
+      },
+      {
+        "title": "t2",
+        "listingImageUrl": "./images/Favor Tags/Gender neutral baby shower favor tag/Listing img-2.jpeg",
+        "id": 2
+      },
+      {
+        "title": "t3",
+        "listingImageUrl": "./images/Favor Tags/Gender neutral baby shower favor tag/Listing img-5.jpeg",
+        "id": 3
+      },
+      {
+        "title": "t4",
+        "listingImageUrl": "./images/Favor Tags/Gender neutral baby shower favor tag/Listing img-3.png",
+        "id": 4
+      },
+      {
+        "title": "t5",
+        "listingImageUrl": "./images/Favor Tags/Gender neutral baby shower favor tag/Listing img-4.jpeg",
+        "id": 5
+      }
+    ],
+    "title": "Gender Neutral Baby Shower Favor Tag",
+    "rating": 4.5,
+    "price": "€4.99",
+    "description": "Celebrate the upcoming arrival of your little one with our gender-neutral baby shower favor tag template. Whether it's a boy, a girl, or a surprise, this template captures the joy of this special milestone. It's a fully editable, customizable, and printable digital template.",
+    "size": "2x2 inches"
+  },
+  {
+    "id": 9,
+    "category": "Favor Tags",
+    "img": "./images/Favor Tags/Outer space birthday favor tag/Listing img-1.jpeg",
+    "listingImages": [
+      {
+        "title": "t1",
+        "listingImageUrl": "./images/Favor Tags/Outer space birthday favor tag/Listing img-1.jpeg",
+        "id": 1
+      },
+      {
+        "title": "t2",
+        "listingImageUrl": "./images/Favor Tags/Outer space birthday favor tag/Listing img-2.jpeg",
+        "id": 2
+      },
+      {
+        "title": "t3",
+        "listingImageUrl": "./images/Favor Tags/Outer space birthday favor tag/Listing img-3.jpeg",
+        "id": 3
+      },
+      {
+        "title": "t4",
+        "listingImageUrl": "./images/Favor Tags/Outer space birthday favor tag/Listing img-4.jpeg",
+        "id": 4
+      },
+      {
+        "title": "t5",
+        "listingImageUrl": "./images/Favor Tags/Outer space birthday favor tag/Listing img-5.jpeg",
+        "id": 5
+      }
+    ],
+    "title": "Outer Space Birthday Favor Tag",
+    "rating": 4.5,
+    "price": "€4.99",
+    "description": "Get ready for an interstellar adventure with our captivating outer space-themed favor tag! It's a fully editable, customizable, and printable digital template.",
+    "size": "2x3.5 inches"
   }
 ]

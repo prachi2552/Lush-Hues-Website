@@ -47,11 +47,11 @@ const Home = () => {
             color: "rgb(148, 132, 98)",
           }}
         >
-          Baby Shower Invitations
+          Favor Tags
         </h4>
       </div>
       <div>
-        <CategoryCardRow filterCategory="Baby Shower Invitations" />
+        <CategoryCardRow filterCategory="Favor Tags" />
       </div>
     </div>
   );
