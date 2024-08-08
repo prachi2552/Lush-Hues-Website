@@ -341,5 +341,42 @@
     "price": "€4.99",
     "description": "Get ready for an interstellar adventure with our captivating outer space-themed favor tag! It's a fully editable, customizable, and printable digital template.",
     "size": "2x3.5 inches"
+  },
+  {
+    "id": 10,
+    "category": "Birthday Invitations",
+    "img": "./images/Birthday Invitations/Outer Space Birthday Invitation/Listing img-2.jpg",
+    "listingImages": [
+      {
+        "title": "t1",
+        "listingImageUrl": "./images/Birthday Invitations/Outer Space Birthday Invitation/Listing img-2.jpg",
+        "id": 1
+      },
+      {
+        "title": "t2",
+        "listingImageUrl": "./images/Birthday Invitations/Outer Space Birthday Invitation/Listing img-1.jpeg",
+        "id": 2
+      },
+      {
+        "title": "t3",
+        "listingImageUrl": "./images/Birthday Invitations/Outer Space Birthday Invitation/Listing img-6.jpeg",
+        "id": 3
+      },
+      {
+        "title": "t4",
+        "listingImageUrl": "./images/Birthday Invitations/Outer Space Birthday Invitation/Listing img-3.jpeg",
+        "id": 4
+      },
+      {
+        "title": "t5",
+        "listingImageUrl": "./images/Birthday Invitations/Outer Space Birthday Invitation/Listing img-4.jpeg",
+        "id": 5
+      },
+      {
+        "title": "t6",
+        "listingImageUrl": "./images/Birthday Invitations/Outer Space Birthday Invitation/Listing img-5.jpeg",
+        "id": 6
+      }
+    ]
   }
 ]
